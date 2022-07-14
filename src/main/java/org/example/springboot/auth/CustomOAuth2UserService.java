@@ -1,8 +1,8 @@
-package org.example.springboot.config.auth;
+package org.example.springboot.auth;
 
 import lombok.RequiredArgsConstructor;
-import org.example.springboot.config.auth.dto.OAuthAttributes;
-import org.example.springboot.config.auth.dto.SessionUser;
+import org.example.springboot.auth.dto.OAuthAttributes;
+import org.example.springboot.auth.dto.SessionUser;
 import org.example.springboot.domain.user.User;
 import org.example.springboot.domain.user.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

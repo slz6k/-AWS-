@@ -1,4 +1,4 @@
-package org.example.springboot.config.auth.dto;
+package org.example.springboot.auth.dto;
 
 import lombok.Builder;
 import lombok.Getter;
