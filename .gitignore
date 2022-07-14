@@ -6,3 +6,5 @@ application-real-oauth.properties
 
 build
 out
+
+application-oauth.properties

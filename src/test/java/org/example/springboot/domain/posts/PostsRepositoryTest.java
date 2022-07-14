@@ -1,4 +1,4 @@
-package org.example.springboot.web.domain.posts;
+package org.example.springboot.domain.posts;
 
 import org.example.springboot.domain.posts.Posts;
 import org.example.springboot.domain.posts.PostsRepository;
