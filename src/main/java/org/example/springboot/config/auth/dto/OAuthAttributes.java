@@ -1,4 +1,4 @@
-package org.example.springboot.auth.dto;
+package org.example.springboot.config.auth.dto;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -40,6 +40,10 @@ public class OAuthAttributes {
 
     public User toEntity() {
         return User.builder()
-                .name(name).email(email).picture(picture).role(Role.GUEST).build();
+                .name(name)
+                .email(email)
+                .picture(picture)
+                .role(Role.GUEST)
+                .build();
     }
 }
