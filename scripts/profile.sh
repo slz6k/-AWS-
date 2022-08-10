@@ -13,19 +13,19 @@ function find_idle_profile() {
 
     if [ ${CURRENT_PROFILE} == real1 ]
     then
-      IDLE_PROFILE=real2 # 연결되지 않은 profile
+      IDLE_PROFILE=real2
     else
       IDLE_PROFILE=real1
     fi
 
-    echo "${IDLE_PROFILE}" # 값 반환 역할
+    echo "${IDLE_PROFILE}"
 }
 
 # 쉬고있는 profile의 port 찾기
 function find_idle_port() {
     IDLE_PROFILE=$(find_idle_profile)
 
-    if [ ${IDLE_PROFILE} == real1]
+    if [ ${IDLE_PROFILE} == real1 ]
     then
       echo "8081"
     else
